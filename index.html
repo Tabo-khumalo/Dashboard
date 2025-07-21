@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CodeArt - Dashboard</title>
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
@@ -21,49 +23,66 @@
     </header>
 
     <nav class="nav">
-      <!-- <div class="logo">
-        <h2>CodeArt Projects</h2>
+      <div class="logo">
+        <h1>CodeArt Projects</h1>
       </div>
       
 
-      <ul class="menu">
-        <li>Home</li>
-        <li>Profile</li>
-        <li>Messages</li>
-        <li>History</li>
-        <li>Tasks</li>
-        <li>Communities</li>
-      </ul>
+      <div class="menu">
+        <a href="#" class="nav-links">
+          <span class="material-symbols-outlined icon">home</span>Home
+        </a>
 
-      <ul class="options">
-        <li>Settings</li>
-        <li>Support</li>
-        <li>Privacy</li>
-      </ul> -->
+        <a href="#" class="nav-links">
+          <span class="material-symbols-outlined icon">person</span>Profile
+        </a>
+
+        <a href="#" class="nav-links">
+          <span class="material-symbols-outlined icon">mail</span>Messages
+        </a>
+
+        <a href="#" class="nav-links">
+          <span class="material-symbols-outlined icon">history_2</span>History
+        </a>
+
+        <a href="#" class="nav-links">
+          <span class="material-symbols-outlined icon">task</span>Tasks
+        </a>
+        
+        <a href="#" class="nav-links">
+          <span class="material-symbols-outlined icon">groups</span>Communities
+        </a>
+      </div>
+
+      <div class="options">
+        <a href="#" class="nav-links">
+          <span class="material-symbols-outlined icon">settings</span>Settings
+        </a>
+
+        <a href="#" class="nav-links">
+          <span class="material-symbols-outlined icon">support_agent</span>Support
+        </a>
+        
+        <a href="#" class="nav-links">
+          <span class="material-symbols-outlined icon">shield_locked</span>Privacy
+        </a>
+      </div>
     </nav>
 
-    <Article class="project-container">
+    <Article class="card-container">
 
-      <div class="project-cards">
-
-        <div class="project-cards-container">
+      <div class="project-cards-container">
           <div class="project-card project-card-1"></div>
           <div class="project-card project-card-2"></div>
           <div class="project-card project-card-3"></div>
           <div class="project-card project-card-4"></div>
           <div class="project-card project-card-5"></div>
           <div class="project-card project-card-6"></div>
-        </div>
-
       </div>
 
-      <div class="info-cards">
-
-        <div class="info-card-container">
-          <div class="info-card announcements-card"></div>
-          <div class="info-card trending-card"></div>
-        </div>
-
+      <div class="info-card-container">
+        <div class="info-card announcements-card"></div>
+        <div class="info-card trending-card"></div>
       </div>
 
     </Article>
